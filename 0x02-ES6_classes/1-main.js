@@ -1,4 +1,3 @@
-import ClassRoom from "./1-make_classrooms.js";
+import initializeRooms from "./1-make_classrooms.js";
 
-const room = new ClassRoom()
-console.log(room.initializeRooms())
+console.log(initializeRooms())
